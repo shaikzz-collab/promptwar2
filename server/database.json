@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": "user_1777684199381",
+      "name": "Shaik Sameer",
+      "email": "sameershaikz1114@gmail.com",
+      "password": "Sameer",
+      "state": "ANDHRA PRADESH",
+      "age": "21",
+      "fakeAadhaar": "546816624561"
+    }
+  ],
+  "elections": [
+    {
+      "id": "lok-sabha-2026",
+      "title": "Lok Sabha General Elections 2026",
+      "description": "National elections for the lower house of India's bicameral Parliament.",
+      "country": "India",
+      "status": "active",
+      "endDate": "2026-05-08T19:04:12.335Z",
+      "themeColor": "saffron"
+    },
+    {
+      "id": "state-assembly-mh",
+      "title": "Maharashtra State Assembly Elections",
+      "description": "Elections for the Legislative Assembly of Maharashtra.",
+      "country": "India",
+      "status": "active",
+      "endDate": "2026-05-04T19:04:12.336Z",
+      "themeColor": "green"
+    },
+    {
+      "id": "student-council",
+      "title": "National Student Council Demo",
+      "description": "Demo election for student body president.",
+      "country": "Global",
+      "status": "active",
+      "endDate": "2026-05-02T19:04:12.336Z",
+      "themeColor": "blue"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c1",
+      "electionId": "lok-sabha-2026",
+      "name": "Ramesh Sharma",
+      "party": "National Democratic Alliance",
+      "symbol": "🪷",
+      "manifesto": "Focus on infrastructure, digital economy, and national security.",
+      "votes": 14502
+    },
+    {
+      "id": "c2",
+      "electionId": "lok-sabha-2026",
+      "name": "Priya Singh",
+      "party": "United Progressive Alliance",
+      "symbol": "✋",
+      "manifesto": "Empowering rural development, education, and healthcare.",
+      "votes": 13200
+    },
+    {
+      "id": "c3",
+      "electionId": "lok-sabha-2026",
+      "name": "Arvind Kumar",
+      "party": "Aam Aadmi Party",
+      "symbol": "🧹",
+      "manifesto": "Free electricity, water, and improved public schools.",
+      "votes": 8900
+    },
+    {
+      "id": "c8",
+      "electionId": "lok-sabha-2026",
+      "name": "Anil Desai",
+      "party": "Independent Forward Bloc",
+      "symbol": "🦁",
+      "manifesto": "Rooting out corruption and promoting local industries.",
+      "votes": 4200
+    },
+    {
+      "id": "c9",
+      "electionId": "lok-sabha-2026",
+      "name": "Meera Reddy",
+      "party": "South Regional Front",
+      "symbol": "🚲",
+      "manifesto": "Better representation for southern states and tech hubs.",
+      "votes": 6700
+    },
+    {
+      "id": "c4",
+      "electionId": "state-assembly-mh",
+      "name": "Sanjay Patil",
+      "party": "Shiv Sena",
+      "symbol": "🏹",
+      "manifesto": "State pride, local employment, and agricultural reforms.",
+      "votes": 5600
+    },
+    {
+      "id": "c5",
+      "electionId": "state-assembly-mh",
+      "name": "Amit Deshmukh",
+      "party": "Nationalist Congress Party",
+      "symbol": "⏰",
+      "manifesto": "Industrial growth and social welfare schemes.",
+      "votes": 4800
+    },
+    {
+      "id": "c10",
+      "electionId": "state-assembly-mh",
+      "name": "Rajeev Joshi",
+      "party": "MNS",
+      "symbol": "🚂",
+      "manifesto": "Putting Maharashtra first in all state policies.",
+      "votes": 3100
+    },
+    {
+      "id": "c6",
+      "electionId": "student-council",
+      "name": "Neha Gupta",
+      "party": "Progressive Students Union",
+      "symbol": "📚",
+      "manifesto": "Better cafeteria food and extended library hours.",
+      "votes": 342
+    },
+    {
+      "id": "c7",
+      "electionId": "student-council",
+      "name": "Rahul Verma",
+      "party": "Student Action Front",
+      "symbol": "💻",
+      "manifesto": "Free Wi-Fi on campus and more tech events.",
+      "votes": 420
+    },
+    {
+      "id": "c11",
+      "electionId": "student-council",
+      "name": "Vikram Shah",
+      "party": "Sports & Arts Coalition",
+      "symbol": "⚽",
+      "manifesto": "More funding for college sports and annual fests.",
+      "votes": 290
+    }
+  ],
+  "votes": [
+    {
+      "id": "vote_1777685546375",
+      "userId": "user_1777661842224",
+      "electionId": "lok-sabha-2026",
+      "candidateId": "c1",
+      "timestamp": "2026-05-02T01:32:26.375Z"
+    },
+    {
+      "id": "vote_1777685701878",
+      "userId": "user_1777661842224",
+      "electionId": "student-council",
+      "candidateId": "c6",
+      "timestamp": "2026-05-02T01:35:01.878Z"
+    },
+    {
+      "id": "vote_1777686437263",
+      "userId": "user_1777684199381",
+      "electionId": "lok-sabha-2026",
+      "candidateId": "c1",
+      "timestamp": "2026-05-02T01:47:17.263Z"
+    },
+    {
+      "id": "vote_1777686565744",
+      "userId": "user_1777684199381",
+      "electionId": "student-council",
+      "candidateId": "c6",
+      "timestamp": "2026-05-02T01:49:25.744Z"
+    }
+  ],
+  "comments": []
+}
